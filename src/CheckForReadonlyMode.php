@@ -38,7 +38,7 @@ class CheckForReadonlyMode
 
             if ($request->method() != 'GET') {
 
-                return redirect()->back()->withErrors(['Asgard is in readonly mode.']);
+                throw new RequestNotallowedException();
 
             }
 
