@@ -38,7 +38,7 @@ class CheckForReadonlyMode
 
             if ($request->method() != 'GET') {
 
-                throw new RequestNotallowedException();
+                throw new RequestNotAllowedException();
 
             }
 

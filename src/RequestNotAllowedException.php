@@ -4,7 +4,7 @@ namespace Pmall\Readonly;
 
 use Exception;
 
-class RequestNotallowedException extends Exception
+class RequestNotAllowedException extends Exception
 {
     //
 }
