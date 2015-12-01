@@ -1,0 +1,8 @@
+{
+    "name": "pmall/readonly",
+    "autoload": {
+        "psr-4": {
+            "Pmall\\Readonly\\": "src/"
+        }
+    }
+}
