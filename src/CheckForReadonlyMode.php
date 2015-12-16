@@ -38,7 +38,7 @@ class CheckForReadonlyMode
 
             if ($request->method() != 'GET') {
 
-                throw new RequestNotAllowedException();
+                throw new RequestNotAllowedException('Request not allowed : The application is in readonly mode.');
 
             }
 
